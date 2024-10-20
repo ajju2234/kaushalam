@@ -1,0 +1,46 @@
+.todo-list {
+    text-align: left;
+  }
+  
+  .todo-list form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .todo-list button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list li.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-list li button {
+    background-color: #f44336;
+  }
